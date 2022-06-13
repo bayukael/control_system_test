@@ -12,7 +12,7 @@ There is also docker compose file which is designated to run `nav_waypoint` pack
 mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws/src
 ```
-2. Copy `turtlebot3_simulation` package and `nav_waypoints` package the workspace
+2. Copy `turtlebot3_simulation` package and `nav_waypoints` package to the workspace
 ```bash
 git clone -b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
 cp -r path/to/dir/nav_waypoints ~/catkin_ws/src
